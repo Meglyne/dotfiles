@@ -23,6 +23,12 @@ cld()
 	ls	
 }
 
+#nusers --- displays how many users are currently logged in
+nusers()
+{
+	who | wc -l
+}
+
 #finduser --- see if user named by first argument is logged in
 finduser()
 {
