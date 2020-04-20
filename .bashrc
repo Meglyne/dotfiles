@@ -23,4 +23,10 @@ cld()
 	ls	
 }
 
+#finduser --- see if user named by first argument is logged in
+finduser()
+{
+	who | grep $1
+}
+
 PS1='[\u@\h \W]\$ '
