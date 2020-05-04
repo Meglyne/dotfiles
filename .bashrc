@@ -6,7 +6,9 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias ll='ls -l'
+alias ll='ls -la'
+
+alias gdb='gdb -q'
 
 mkcd()
 {
