@@ -1,2 +1,2 @@
-#set dissasselbly syntax to intel syntax
-set dis init
+#set dissassembly syntax to intel syntax
+set disassembly-flavor intel
